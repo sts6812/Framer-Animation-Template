@@ -57,7 +57,8 @@ function showFileLoadingAlert() {
 }
 
 function loadProject(callback) {
-	CoffeeScript.load("app.coffee", callback)
+	#CoffeeScript.load("app.coffee", callback)
+	CoffeeScript.load("https://codepen.io/sts6812/pen/oEeYgG.coffeescript", callback)
 }
 
 function setDefaultPageTitle() {
